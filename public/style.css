@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #212121;
+    color: #aaccff;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #11ccff;
+}
+a:hover {
+    color: #11cbff96;
+}
+a:active {
+    color: #11cbff96;
+}
+
+button {
+    border-radius: 2px;
+    border-width: 0;
+    padding: 10px 25px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+header {
+    min-height: 100vh;
+    text-align: center;
+}
+.main-nav {
+    background-color: #212121;
+    box-shadow: 0 1px 4px #121212;
+    margin-bottom: 100px;
+    padding-inline: 60px;
+}
+.main-nav ul {
+    margin: 0;
+    list-style-type: none;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    padding-inline: 60px;
+}
+.heading-2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    padding-inline: 30px;
+}
+
+header .main-para {
+    margin-bottom: 50px;
+    padding-inline: 60px;
+}
+
+.primary-btn {
+    background-color: #4200dd;
+    color: #fafafa;
+}
+
+.primary-btn:hover {
+    background-color: #3c00c9;
+    color: #fff;
+    transform: scale(1.01);
+}
+
+.main {
+    padding-top: 30px;
+    padding-inline: 60px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.products {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 320px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-block: 10px;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-details p {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+.product-card-action {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.add-btn.add {
+    background-color: #dd2222;
+    color: #fff;
+}
+.like-btn.like {
+    background-color: #4a55fa;
+    color: #fff;
+}
