@@ -34,12 +34,17 @@ button {
 header {
     min-height: 100vh;
     text-align: center;
+    padding-top: 150px;
 }
 .main-nav {
     background-color: #212121;
     box-shadow: 0 1px 4px #121212;
     margin-bottom: 100px;
     padding-inline: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .main-nav ul {
     margin: 0;
